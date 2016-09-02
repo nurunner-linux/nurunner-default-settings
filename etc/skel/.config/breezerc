@@ -1,0 +1,11 @@
+[Common]
+ShadowSize=20
+ShadowStrength=128
+
+[Style]
+AnimationsEnabled=false
+ViewDrawFocusIndicator=false
+
+[Windeco]
+AnimationsEnabled=false
+DrawBackgroundGradient=false
