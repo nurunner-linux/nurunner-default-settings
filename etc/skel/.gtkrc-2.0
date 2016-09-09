@@ -8,7 +8,7 @@ style "user-font"
 }
 widget_class "*" style "user-font"
 gtk-font-name="Noto Sans Regular 10"
-gtk-theme-name="carbon-gtk"
+gtk-theme-name="breeze"
 gtk-icon-theme-name="breeze"
 gtk-fallback-icon-theme="gnome"
 gtk-cursor-theme-name="white-classicia++"
