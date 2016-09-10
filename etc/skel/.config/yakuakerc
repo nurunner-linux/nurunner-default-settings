@@ -3,7 +3,7 @@ Frames=10
 
 [Appearance]
 BackgroundColorOpacity=70
-Skin=legacy
+Skin=breeze
 Translucency=true
 
 [Behavior]
