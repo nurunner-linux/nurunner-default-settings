@@ -44,7 +44,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.netrunnerkicker
 
-
 [Containments][1][Applets][2][Configuration][Shortcuts]
 global=Alt+F1
 
@@ -107,8 +106,8 @@ DialogWidth=800
 [Containments][1][General]
 AppletOrder=2;3;4;5;6;8;9
 
-[Containments][10]
-activityId=709c39a1-dd08-4e56-b95c-b36d603cdb5c
+[Containments][11]
+activityId=49442035-8f68-4d86-94f9-17d0c6a8e2eb
 formfactor=0
 immutability=1
 lastScreen=0
@@ -116,23 +115,19 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][10][ConfigDialog]
+[Containments][11][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][10][General]
-popups=false
-positions=1,9,desktop:/welcome.desktop,0,2,desktop:/ubiquity-kdeui.desktop,0,3,desktop:/mycomputer.desktop,0,0,desktop:/Network,0,1
-pressToMove=true
-selectionMarkers=false
-showToolbox=false
+[Containments][11][General]
+positions=1,7,desktop:/calamares.desktop,0,2,desktop:/mycomputer.desktop,0,0,desktop:/Readme.desktop,0,1
 sortMode=-1
 
-[Containments][10][Wallpaper][org.kde.image][General]
+[Containments][11][Wallpaper][org.kde.image][General]
 FillMode=2
 Image=file:///usr/share/wallpapers/netrunner/nurunner-default.png
 height=768
-width=1280
+width=1024
 
 [Containments][7]
 activityId=
@@ -149,19 +144,19 @@ plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][12]
 immutability=1
-plugin=org.kde.plasma.devicenotifier
+plugin=org.kde.plasma.clipboard
 
 [Containments][7][Applets][13]
 immutability=1
-plugin=org.kde.kdeconnect
+plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][14]
 immutability=1
-plugin=org.kde.plasma.printmanager
+plugin=org.kde.kdeconnect
 
 [Containments][7][Applets][15]
 immutability=1
-plugin=org.kde.plasma.networkmanagement
+plugin=org.kde.plasma.printmanager
 
 [Containments][7][Applets][16]
 immutability=1
@@ -170,6 +165,10 @@ plugin=org.kde.plasma.battery
 [Containments][7][Applets][17]
 immutability=1
 plugin=org.kde.ktp-contactlist
+
+[Containments][7][Applets][18]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
 
 [Containments][7][General]
 extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.ktp-contactlist,org.kde.plasma.ktplegacypresenceapplet,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller
