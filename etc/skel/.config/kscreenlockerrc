@@ -4,3 +4,6 @@ Timeout=0
 
 [Greeter]
 Theme=org.kde.maui.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/plasma/look-and-feel/org.kde.maui.desktop/contents/components/artwork/background.png
