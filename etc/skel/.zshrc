@@ -1,5 +1,6 @@
 # .zshrc
 # Author: Piotr Karbowski <piotr.karbowski@gmail.com>
+# Modified by Matt Kowal <matt@nurunner.org>
 # License: beerware.
 
 
@@ -10,6 +11,12 @@ promptinit
 # This will set the default prompt to the adam2 theme
 prompt adam2
 
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+    # Use autosuggestion
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
 # Are we running under grsecurity's RBAC?
 rbac_auth() {
