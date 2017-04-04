@@ -52,7 +52,7 @@ global=Alt+F1
 
 [Containments][1][Applets][22]
 immutability=1
-plugin=org.kde.plasma.nurunnerclock
+plugin=org.kde.plasma.digitalclock
 
 [Containments][1][Applets][3]
 immutability=1
